@@ -1,0 +1,22 @@
+@use "../../styles/partials/variables.scss" as *;
+@use "../../styles/partials/typography.scss" as *;
+
+.month-year {
+    font-family: "Comfortaa";
+    color: $white;
+    font-size: 1.125rem;
+    width: 100%;
+    height: 2.625rem;
+    background: $goalkeep-black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    &__chevron{
+
+        &--yflip {
+            transform: rotateY(180deg);
+        }
+    }
+}

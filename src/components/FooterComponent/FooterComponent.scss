@@ -1,0 +1,36 @@
+@use "../../styles/partials/variables.scss" as *;
+
+.footer {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  height: 3.5rem;
+  width: 100%;
+  background-color: $goalkeep-purple;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: $white;
+
+  &__link {
+    height: 100%;
+    width: 33%;
+    border-right: 2px solid $white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &--noborder {
+        border-right: none;
+    }
+  }
+
+  &__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &--noborder {
+      border-right: none;
+    }
+  }
+}

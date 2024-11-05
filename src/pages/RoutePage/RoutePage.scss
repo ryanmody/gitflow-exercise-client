@@ -1,0 +1,37 @@
+
+
+.route-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    opacity: 0;               // Start hidden
+    transition: opacity 3s ease-in-out;  // Transition over 3 seconds
+    background-color: #F0F0F0;
+    padding: 3rem;
+  
+    &.fade-in {
+      opacity: 1;             // Fade in to full visibility
+    }
+  }
+  
+  .app-name {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .tagline {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 10px;
+  }
+
+  .video-background {
+    height: calc(70% - 50px);  // Reduce height by 50px
+    width: 70%;                // Keep the width at 100%
+    object-fit: cover;          // Ensures the video fills the container and crops the excess
+    background-color: white;
+  }
+  
