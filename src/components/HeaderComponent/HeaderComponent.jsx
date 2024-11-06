@@ -7,7 +7,7 @@ const HeaderComponent = () => {
     <>
         <div className='header'>
             <div className='header__title'>GoalKeep</div>
-            <img className='header__logo' src={logo}/>
+            {/* <img className='header__logo' src={logo}/> */}
 
 
         </div>
